@@ -29,14 +29,27 @@ Once dependencies are installed, start the development server using:
 
 npm run dev
 
-⚙️ Tech Stack:
+⚙️ Tech Stack Used:
 
-This project is built using Next.js.
+Framework: Next.js v15.5.2
+
+Styling: Tailwind CSS
+
+Calendar Integration: FullCalendar with the following modules:
+
+"@fullcalendar/core": "^6.1.19",
+"@fullcalendar/daygrid": "^6.1.19",
+"@fullcalendar/interaction": "^6.1.19",
+"@fullcalendar/react": "^6.1.19",
+"@fullcalendar/resource-timegrid": "^6.1.19",
+"@fullcalendar/resource-timeline": "^6.1.19",
+"@fullcalendar/timegrid": "^6.1.19"
 
 💬 Code Comments:
 
-All functions in the project are clearly commented to explain their functionality and purpose.
+Every function in the codebase is clearly commented with explanations of its purpose and functionality.
 
 ❓ Need Help?
 
-If you face any issues while setting up or running the project, feel free to contact me. I’ll be happy to walk you through the code and project flow.
+If you face any issues with module installation or running the project, feel free to reach out.
+I can also provide a live demo to walk you through the complete project if needed.
