@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+📁 Project Setup Instructions – Event Calendar (Next.js)
 
-## Getting Started
+I have uploaded the Event Calendar project to a public GitHub repository. You can directly clone it using the following URL:
 
-First, run the development server:
+🔗 GitHub Repository: https://github.com/goyaldeepak87/Event-calendar
 
-```bash
+📦 Steps to Set Up the Project:
+
+Clone the Repository:
+
+git clone https://github.com/goyaldeepak87/Event-calendar
+
+
+Navigate to the Project Directory:
+
+cd Event-calendar
+
+
+Install Dependencies:
+
+Run the following command to install all required dependencies:
+
+npm install
+
+
+Start the Development Server:
+
+Once dependencies are installed, start the development server using:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+⚙️ Tech Stack:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+This project is built using Next.js.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+💬 Code Comments:
 
-## Learn More
+All functions in the project are clearly commented to explain their functionality and purpose.
 
-To learn more about Next.js, take a look at the following resources:
+❓ Need Help?
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you face any issues while setting up or running the project, feel free to contact me. I’ll be happy to walk you through the code and project flow.
