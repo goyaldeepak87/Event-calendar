@@ -49,6 +49,11 @@ Calendar Integration: FullCalendar with the following modules:
 
 Every function in the codebase is clearly commented with explanations of its purpose and functionality.
 
+📱 Responsive Design Note:
+
+Note: If you're switching directly from desktop view to mobile view (or vice versa), please refresh the page once.
+This ensures that the layout and calendar content adjust correctly to the new screen size.
+
 ❓ Need Help?
 
 If you face any issues with module installation or running the project, feel free to reach out.
