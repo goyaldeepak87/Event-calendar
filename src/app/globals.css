@@ -1,0 +1,155 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Style all calendar buttons */
+.fc .fc-button {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  /* optional, override below if needed */
+  padding: 6px 12px;
+  border-radius: 6px;
+  /* background-color: #4f46e5; */
+  color: white;
+  border: none;
+}
+
+/* Custom Prev and Next buttons */
+.fc .fc-customPrev-button,
+.fc .fc-customNext-button {
+  font-size: 16px;
+  font-weight: bold;
+  /* background-color: #4f46e5; */
+  color: white;
+  border-radius: 6px;
+  padding: 6px 12px;
+}
+
+/* TODAY button uppercase */
+.fc .fc-today-button {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background-color: #22c55e;
+}
+
+
+.fc .fc-toolbar-title {
+  color: #EF4444;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.fc-timeline-slot-frame {
+  color: gray !important;
+  font-weight: 400 !important;
+  /* or use your preferred gray color, e.g., #6b7280 (Tailwind's gray-500) */
+}
+
+
+/* Make events stretch to full row height */
+.fc-timeline-event {
+  height: 100% !important;
+}
+
+.fc-event-main-frame {
+  height: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Optional: remove internal padding/margin */
+.fc-event {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Make the event box match the row height without breaking the timeline */
+.fc-event-main-frame {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2px 4px;
+  /* optional, to match spacing */
+  box-sizing: border-box;
+}
+
+/*  */
+a.fc-event {
+  height: 100% !important;
+  border: 0px solid gray !important;
+  border-radius: 8px !important;
+}
+
+a.fc-event .fc-event-main {
+  height: 100% !important;
+  /* border-radius: 5px !important;  */
+  /* border-radius: 8px !important; 
+  box-shadow: -2px 0px 0px 0px gray !important; */
+}
+
+/* .fc-timeline-event-harness{
+  height: 100% !important; 
+} */
+
+.fc-event {
+  height: auto !important;
+}
+
+.fc-timeline-slot-frame {
+  justify-content: center;
+  background: #FAFAFA;
+  justify-content: center !important;
+}
+
+.fc-license-message {
+  display: none !important;
+}
+
+.fc .fc-timeline-overlap-enabled .fc-timeline-lane-frame .fc-timeline-events {
+  box-sizing: content-box;
+  padding-bottom: 0px !important;
+}
+
+.fc-scroller {
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+@media (max-width: 639px) and (min-width: 300px) {
+  .fc .fc-timeline-slot-cushion {
+    font-size: 13px;
+  }
+  .fc-datagrid-cell-cushion {
+    font-size: 13px;
+  }
+}
+
+/*  */
